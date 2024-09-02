@@ -4,7 +4,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
-import Root from './routes/root.tsx';
+import Root from './routes/Root.tsx';
+import { RecipeProvider } from './context/RecipeContext.tsx';
 import './index.css';
 
 const router = createBrowserRouter([
@@ -18,6 +19,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <RecipeProvider>
     <RouterProvider router={router} />
+    </RecipeProvider>
   </StrictMode>
 )

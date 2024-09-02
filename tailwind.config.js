@@ -14,7 +14,7 @@ export default {
     extend: {
       colors: {
         vanilla: '#f3e5ab',
-        peach: '#59a58c',
+        peach: '#ff775e',
         rose: '#f4c2c2',
         butter: '#ffd97d',
         caramel: '#d1a054',
