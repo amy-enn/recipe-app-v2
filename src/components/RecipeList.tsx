@@ -15,6 +15,7 @@ const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
 
     const { recipes } = context;
 
+    // TODO: switch to useMemo for the grouped recipes
     const groupedRecipes = recipes.reduce((acc, recipe) => {
         const category = recipe.category;
         if (!acc[category]) {
@@ -25,20 +26,24 @@ const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
     }, {} as Record<string, Recipe[]>);
 
     return (
-        <div className="recipe-list">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {Object.keys(groupedRecipes).map((category) => (
-                <div key={category}>
-                    <h2 className="text-xl font-bold mt-4 mb-2">{category}</h2>
-                    {groupedRecipes[category].map((recipe) => (
+                <div key={category} className="p-4 bg-butter rounded-xl shadow-xl border-4 border-peach">
+                    <h2 className="text-xl font-bold mb-2 text-center">~ {category} ~</h2>
+                    <ul>
+                        {groupedRecipes[category].map((recipe) => (
 
-                        <div
-                            key={recipe.recipe_id}
-                            onClick={() => onRecipeSelect(recipe)} className="cursor-pointer hover:underline">
-                            {recipe.recipe_name}
-                        </div>))}
+                            <li
+                                key={recipe.recipe_id}
+                                onClick={() => onRecipeSelect(recipe)} className="cursor-pointer hover:underline text-center">
+                                {recipe.recipe_name}
+                            </li>
+                        ))}
+                    </ul>
                 </div>
             ))}
         </div>
+
     );
 };
 

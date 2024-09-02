@@ -22,31 +22,31 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
   return (
     <div className="fixed inset-0 bg-cocoa bg-opacity-75 flex items-center justify-center z-50">
 
-      <div className="bg-butter shadow-lg p-8 max-w-sm w-full">
+      <div className="bg-butter border-4 border-peach shadow-lg p-8 max-w-[90vw] max-h-[90vh] overflow-y-auto">
         <h2 className="text-2xl font-bold mb-4">{selectedRecipe.recipe_name}</h2>
 
         <p>{selectedRecipe.description}</p>
 
-        <h4>Ingredients:</h4>
+        <h4 className="text-lg mt-4 font-bold">Ingredients:</h4>
         <ul>
           {selectedRecipe.ingredients.map((ingredient, index) => (
-            <li key={index}>
+            <li key={index} className="my-2">
               ✦ {ingredient.quantity}{" "}
               {ingredient.ingredient_name.toLowerCase()}
             </li>
           ))}
         </ul>
 
-        <h4>Instructions:</h4>
+        <h4 className="text-lg mt-4 font-bold">Instructions:</h4>
         <ul>
           {selectedRecipe.instructions.map((instruction, index) => (
-            <li key={index}>
+            <li key={index} className="my-2">
               ➸ {instruction}
             </li>
           ))}
         </ul>
 
-        <button className="bg-rose border-4 border-cocoa text-black py-1 px-2 rounded hover:scale-105" onClick={onClose}>
+        <button className="bg-vanilla border-4 border-peach text-black py-1 px-2 rounded hover:scale-105" onClick={onClose}>
           Close
         </button>
 
