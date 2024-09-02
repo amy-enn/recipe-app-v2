@@ -5,7 +5,7 @@ interface RecipeListProps {
     onRecipeSelect: (recipe: Recipe) => void;
 }
 
-const RecipeList = ({onRecipeSelect}: RecipeListProps) => {
+const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
 
     const context = useContext(RecipeContext);
 
@@ -13,14 +13,31 @@ const RecipeList = ({onRecipeSelect}: RecipeListProps) => {
         throw new Error('RecipeContext must be used within a RecipeProvider');
     }
 
-    const { recipes, selectRecipe } = context;
+    const { recipes } = context;
+
+    const groupedRecipes = recipes.reduce((acc, recipe) => {
+        const category = recipe.category;
+        if (!acc[category]) {
+            acc[category] = [];
+        }
+        acc[category].push(recipe);
+        return acc;
+    }, {} as Record<string, Recipe[]>);
 
     return (
         <div className="recipe-list">
-            {recipes.map((recipe) => (
-                <div key={recipe.recipe_id} onClick={() => onRecipeSelect(recipe)} className="cursor-pointer hover:underline">
-                    {recipe.recipe_name}
-                </div>))}
+            {Object.keys(groupedRecipes).map((category) => (
+                <div key={category}>
+                    <h2 className="text-xl font-bold mt-4 mb-2">{category}</h2>
+                    {groupedRecipes[category].map((recipe) => (
+
+                        <div
+                            key={recipe.recipe_id}
+                            onClick={() => onRecipeSelect(recipe)} className="cursor-pointer hover:underline">
+                            {recipe.recipe_name}
+                        </div>))}
+                </div>
+            ))}
         </div>
     );
 };
