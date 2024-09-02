@@ -27,12 +27,21 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
 
         <p>{selectedRecipe.description}</p>
 
-        <h4>Ingredients</h4>
+        <h4>Ingredients:</h4>
         <ul>
           {selectedRecipe.ingredients.map((ingredient, index) => (
             <li key={index}>
               ✦ {ingredient.quantity}{" "}
               {ingredient.ingredient_name.toLowerCase()}
+            </li>
+          ))}
+        </ul>
+
+        <h4>Instructions:</h4>
+        <ul>
+          {selectedRecipe.instructions.map((instruction, index) => (
+            <li key={index}>
+              ➸ {instruction}
             </li>
           ))}
         </ul>
