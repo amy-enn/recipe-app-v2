@@ -1,4 +1,4 @@
-import { createContext, useState, ReactNode } from 'react';
+import { createContext, useState, useEffect, ReactNode } from 'react';
 import recipeData from '../recipes.json';
 import categoryData from '../categories.json';
 
@@ -40,11 +40,35 @@ const RecipeProvider = ({ children }: { children: ReactNode }) => {
 
     const [bookmarks, setBookmarks] = useState<Recipe[]>([]);
 
+    // load bookmarks from local storage if present
+    useEffect(() => {
+        const storedBookmarks = localStorage.getItem('bookmarks');
+        if (storedBookmarks) {
+            console.log(storedBookmarks);
+            setBookmarks(JSON.parse(storedBookmarks));
+        }
+    }, []);
+
+    // save bookmarks to local storage
+    useEffect(() => {
+        localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
+        console.log(bookmarks);
+    }, [bookmarks]);
+
     const selectRecipe = (recipe: Recipe) => setSelectedRecipe(recipe);
 
     const addBookmark = (recipe: Recipe) => {
-        setBookmarks((prev) => [...prev, recipe]);
+        setBookmarks((prevBookmarks) => {
+            if (prevBookmarks.some((r) => r.recipe_id === recipe.recipe_id)) {
+                // remove the recipe if it is already bookmarked
+                return prevBookmarks.filter((r) => r.recipe_id !== recipe.recipe_id);
+            } else {
+                // add the recipe to bookmarks if it isn't already bookmarked
+                return [...prevBookmarks, recipe];
+            }
+        });
     };
+    
 
     return (
         <RecipeContext.Provider

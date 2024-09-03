@@ -75,7 +75,7 @@
       "Let it rise again for 30 minutes.",
       "Preheat oven to 350°F (175°C) and bake for 30-35 minutes until it sounds hollow when tapped."
     ],
-    "description": "Whole wheat bread is healthier due to the use of whole wheat flour. It has a nutty flavor and denser texture compared to white bread."
+    "description": "Whole wheat bread has a nutty flavor and denser texture compared to white bread."
   },
   {
     "recipe_name": "Soda Bread",
@@ -171,15 +171,15 @@
       },
       {
         "ingredient_name": "Carrots",
-        "quantity": "2, sliced"
+        "quantity": "2 sliced"
       },
       {
         "ingredient_name": "Celery stalks",
-        "quantity": "2, chopped"
+        "quantity": "2 chopped"
       },
       {
         "ingredient_name": "Onion",
-        "quantity": "1, diced"
+        "quantity": "1 diced"
       },
       {
         "ingredient_name": "Egg noodles",

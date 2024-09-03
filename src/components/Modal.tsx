@@ -13,17 +13,32 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
     throw new Error('RecipeContext must be used within a RecipeProvider');
   }
 
-  const { selectedRecipe } = context;
+  const { selectedRecipe, addBookmark, bookmarks } = context;
 
 
 
   if (!isOpen || !selectedRecipe) return null;
 
+  const isBookmarked = bookmarks.some((recipe) => recipe.recipe_id === selectedRecipe.recipe_id);
+
+  const handleBookmarkClick = () => {
+    addBookmark(selectedRecipe);
+  };
+
   return (
     <div className="fixed inset-0 bg-cocoa bg-opacity-75 flex items-center justify-center z-50">
 
       <div className="bg-butter border-4 border-peach shadow-lg p-8 max-w-[90vw] max-h-[90vh] overflow-y-auto">
-        <h2 className="text-2xl font-bold mb-4">{selectedRecipe.recipe_name}</h2>
+        <div className="flex flex-row">
+
+          <button
+            className={`${isBookmarked ? 'text-yellow-500' : 'text-gray-300'} text-3xl`}
+            onClick={handleBookmarkClick}
+          >
+            ★
+          </button>
+          <h2 className="text-2xl font-bold mb-4">{selectedRecipe.recipe_name}</h2>
+        </div>
 
         <p>{selectedRecipe.description}</p>
 
