@@ -16,3 +16,7 @@
 body {
     font-family: "Alice", 'Courier New', Courier, monospace
 }
+
+img {
+    max-width: 400px;
+}

@@ -29,24 +29,28 @@ const Modal = ({ isOpen, onClose }: ModalProps) => {
     <div className="fixed inset-0 bg-cocoa bg-opacity-75 flex items-center justify-center z-50">
 
       <div className="bg-butter border-4 border-peach shadow-lg p-8 max-w-[90vw] max-h-[90vh] overflow-y-auto">
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row justify-between items-center">
 
-          <h2 className="text-2xl font-bold mb-4">{selectedRecipe.recipe_name}</h2>
-          <div className="flex flex-row">
+          <div className="flex flex-row items-center">
+
             <button
-              className={`${isBookmarked ? 'text-yellow-500' : 'text-black'} text-3xl border-4 border-peach hover:scale-105 py-1 px-2 bg-vanilla shadow-xl`}
+              className={`${isBookmarked ? 'text-yellow-500' : 'text-black'} text-3xl hover:scale-105 mr-2`}
               onClick={handleBookmarkClick}
             >
               ★
             </button>
-            <button className="border-4 bg-vanilla border-peach text-black text-lg font-bold py-1 px-2 rounded hover:scale-105 shadow-xl" onClick={onClose}>
-              Close
-            </button>
+            <h2 className="text-3xl font-bold">{selectedRecipe.recipe_name}</h2>
           </div>
+
+          <button className="border-4 bg-vanilla border-peach text-black text-lg font-bold py-1 px-2 rounded hover:scale-105 shadow-xl" onClick={onClose}>
+            Close
+          </button>
         </div>
 
-        <img className="rounded-full border-4 border-peach mb-4" src=
-          {"/recipes/" + selectedRecipe.imageUrl} />
+        <div className="flex flex-col items-center">
+          <img className="rounded-full border-4 border-peach mb-4" src=
+            {"/recipes/" + selectedRecipe.imageUrl} />
+        </div>
 
         <p className="italic">{selectedRecipe.description}</p>
 
