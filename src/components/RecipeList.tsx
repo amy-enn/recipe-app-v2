@@ -26,6 +26,8 @@ const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
     }, {} as Record<string, Recipe[]>);
 
     return (
+<>
+<h3>Recipe Categories</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
             {Object.keys(groupedRecipes).map((category) => (
                 <div key={category} className="p-4 bg-butter rounded-xl shadow-xl border-4 border-peach">
@@ -43,6 +45,7 @@ const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
                 </div>
             ))}
         </div>
+        </>
 
     );
 };

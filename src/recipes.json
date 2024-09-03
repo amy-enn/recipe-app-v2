@@ -36,7 +36,6 @@
     ],
     "description": "White bread is known for its simplicity and soft, fluffy texture. It's versatile and can be used for sandwiches or toast."
   },
-
   {
     "recipe_name": "Whole Wheat Bread",
     "recipe_id": 2,
@@ -78,7 +77,6 @@
     ],
     "description": "Whole wheat bread is healthier due to the use of whole wheat flour. It has a nutty flavor and denser texture compared to white bread."
   },
-
   {
     "recipe_name": "Soda Bread",
     "recipe_id": 3,
@@ -111,7 +109,6 @@
     ],
     "description": "Soda bread is unique for its use of baking soda and buttermilk, which create a quick, rustic, and slightly tangy bread. It doesn't require yeast or long rising times."
   },
-
   {
     "recipe_name": "Tomato Soup",
     "recipe_id": 4,
@@ -159,7 +156,6 @@
     ],
     "description": "Tomato soup is known for its comforting, tangy flavor. It's a classic favorite, often served with grilled cheese sandwiches."
   },
-
   {
     "recipe_name": "Chicken Noodle Soup",
     "recipe_id": 5,
@@ -212,7 +208,6 @@
     ],
     "description": "Chicken noodle soup is a comforting and hearty soup with tender chicken, vegetables, and noodles. It's often enjoyed when feeling under the weather."
   },
-
   {
     "recipe_name": "Potato Leek Soup",
     "recipe_id": 6,
@@ -254,7 +249,6 @@
     ],
     "description": "Potato leek soup is known for its silky texture and delicate flavor. It's a creamy, comforting soup perfect for cooler days."
   },
-
   {
     "recipe_id": 7,
     "recipe_name": "Chocolate Chip Cookies",
@@ -309,7 +303,6 @@
     ],
     "description": "Chocolate chip cookies are classic and beloved for their combination of chewy and crispy textures and the delightful taste of chocolate."
   },
-
   {
     "recipe_id": 8,
     "recipe_name": "Peanut Butter Cookies",
@@ -355,7 +348,6 @@
     ],
     "description": "Peanut butter cookies are known for their rich peanut butter flavor and crumbly, melt-in-your-mouth texture."
   },
-
   {
     "recipe_id": 9,
     "recipe_name": "Oatmeal Raisin Cookies",
@@ -414,7 +406,6 @@
     ],
     "description": "Oatmeal raisin cookies are loved for their hearty, chewy texture and the sweetness of the raisins combined with the warmth of cinnamon."
   },
-
   {
     "recipe_id": 10,
     "recipe_name": "Pancakes",
@@ -460,7 +451,6 @@
     ],
     "description": "Pancakes are a classic breakfast choice, known for their fluffy texture and versatility in toppings like syrup, fruits, or chocolate chips."
   },
-
   {
     "recipe_id": 11,
     "recipe_name": "Blueberry Muffins",
@@ -511,7 +501,6 @@
     ],
     "description": "Blueberry muffins are a delightful breakfast treat with bursts of sweet blueberries in every bite."
   },
-
   {
     "recipe_id": 12,
     "recipe_name": "Banana Nut Muffins",
@@ -567,7 +556,6 @@
     ],
     "description": "Banana nut muffins are a delightful breakfast treat with the natural sweetness of bananas and the crunch of chopped nuts."
   },
-
   {
     "recipe_name": "Pound Cake",
     "recipe_id": 13,
@@ -612,7 +600,6 @@
     ],
     "description": "A traditional pound cake recipe, known for its rich, buttery flavor and dense texture. Perfect as a base for various toppings and fruit accompaniments."
   },
-
   {
     "recipe_name": "Vanilla Cake",
     "recipe_id": 14,
@@ -661,7 +648,6 @@
     ],
     "description": "A basic white cake with a tender crumb and rich vanilla flavor. Ideal for birthdays and celebrations, ready to be decorated with your favorite frosting and toppings."
   },
-
   {
     "recipe_name": "Chocolate Cake",
     "recipe_id": 15,
@@ -721,7 +707,6 @@
     ],
     "description": "A classic chocolate cake that's moist, rich, and decadent. Perfect for any occasion and pairs wonderfully with a variety of frostings and fillings."
   },
-
   {
     "recipe_name": "Carrot Cake",
     "recipe_id": 16,
@@ -769,7 +754,6 @@
     ],
     "description": "A moist and flavorful carrot cake, packed with grated carrots and optional nuts. A delightful treat that can be enjoyed plain or dressed up with cream cheese frosting."
   },
-
   {
     "recipe_name": "Split Pea Soup",
     "recipe_id": 17,
@@ -829,8 +813,7 @@
       "Adjust seasoning to taste and serve hot."
     ],
     "description": "A hearty and comforting split-pea soup, perfect for cold days. This classic soup can be enjoyed as a vegetarian dish or with the addition of ham for extra flavor."
-  }, 
-
+  },
   {
     "recipe_name": "Chili",
     "recipe_id": 18,
@@ -894,7 +877,6 @@
     ],
     "description": "A classic and hearty chili recipe, perfect for a comforting meal. This basic chili is flavorful and easy to make, with room for personal customization and additional toppings."
   },
-
   {
     "recipe_name": "Homemade Applesauce",
     "recipe_id": 19,
@@ -930,7 +912,6 @@
     ],
     "description": "A simple and delicious homemade applesauce recipe, perfect for a healthy and comforting breakfast. The natural sweetness of the apples is enhanced with a hint of cinnamon and lemon."
   },
-
   {
     "recipe_name": "Gingerbread Cookies",
     "recipe_id": 20,
@@ -992,7 +973,6 @@
     ],
     "description": "Classic gingerbread cookies with a perfect balance of spices and a wonderfully soft and chewy texture. Ideal for decorating and enjoying during the holiday season or any time of year."
   },
-
   {
     "recipe_name": "Challah",
     "recipe_id": 21,
@@ -1043,7 +1023,6 @@
     ],
     "description": "Challah is a beautifully braided bread, soft and slightly sweet, making it a delightful addition to any meal. Its texture and flavor make it a favorite for both special occasions and everyday enjoyment."
   },
-
   {
     "recipe_name": "Soft Pretzels",
     "recipe_id": 22,
@@ -1089,7 +1068,6 @@
     ],
     "description": "Homemade soft pretzels with a chewy texture and the classic pretzel flavor. Perfect for snacking, they can be enjoyed plain or with your favorite dips."
   },
-
   {
     "recipe_name": "Pizza Dough",
     "recipe_id": 23,
@@ -1131,7 +1109,6 @@
     ],
     "description": "A basic pizza dough recipe that's easy to make and perfect for creating delicious homemade pizzas. The dough is versatile, allowing for a variety of toppings to suit your taste."
   },
-
   {
     "recipe_name": "Brown Bread",
     "recipe_id": 24,
@@ -1184,5 +1161,179 @@
       "Cool in the pan for 10 minutes, then remove to a wire rack to cool completely."
     ],
     "description": "A traditional brown bread recipe, featuring the rich flavors of whole wheat, molasses, and buttermilk. It's a wholesome, slightly sweet loaf that's perfect for toasting and serving with butter or jam."
+  },
+  {
+    "recipe_name": "Tropical Delight Trail Mix",
+    "recipe_id": 25,
+    "category": "Snack",
+    "ingredients": [
+      {
+        "ingredient_name": "Dried mango slices",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredient_name": "Dried pineapple chunks",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredient_name": "Unsweetened coconut flakes",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredient_name": "Macadamia nuts",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredient_name": "Cashews",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredient_name": "Dark chocolate chips",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredient_name": "Banana chips",
+        "quantity": "1/4 cup"
+      }
+    ],
+    "instructions": [
+      "Combine all ingredients in a large mixing bowl.",
+      "Toss until everything is evenly distributed.",
+      "Store in an airtight container."
+    ],
+    "description": "A tropical mix with dried fruits and nuts that brings a taste of the tropics wherever you go."
+  },
+  {
+    "recipe_name": "Spicy Nutty Mix",
+    "recipe_id": 2,
+    "category": "Snack",
+    "ingredients": [
+      {
+        "ingredient_name": "Roasted almonds",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredient_name": "Roasted peanuts",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredient_name": "Roasted pumpkin seeds",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredient_name": "Roasted chickpeas",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredient_name": "Pretzel sticks",
+        "quantity": "1/2 cup"
+      },
+      {
+        "ingredient_name": "Cayenne pepper",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "ingredient_name": "Smoked paprika",
+        "quantity": "1/2 tsp"
+      },
+      {
+        "ingredient_name": "Garlic powder",
+        "quantity": "1/2 tsp"
+      }
+    ],
+    "instructions": [
+      "In a large bowl, combine the almonds, peanuts, pumpkin seeds, and chickpeas.",
+      "Sprinkle the cayenne pepper, smoked paprika, and garlic powder over the mix.",
+      "Toss well to coat the nuts and seeds evenly with the spices.",
+      "Add the pretzel sticks and mix again.",
+      "Store in an airtight container."
+    ],
+    "description": "A spicy and crunchy trail mix with a kick, perfect for those who love a little heat in their snacks."
+  },
+  {
+    "recipe_name": "Apple Nachos",
+    "recipe_id": 3,
+    "category": "Snack",
+    "ingredients": [
+      {
+        "ingredient_name": "Apple slices",
+        "quantity": "2 apples"
+      },
+      {
+        "ingredient_name": "Peanut butter",
+        "quantity": "1/4 cup"
+      },
+      {
+        "ingredient_name": "Chopped nuts",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredient_name": "Dark chocolate chips",
+        "quantity": "2 tablespoons"
+      }
+    ],
+    "instructions": [
+      "Arrange apple slices on a plate.",
+      "Drizzle with peanut butter.",
+      "Sprinkle with chopped nuts and dark chocolate chips."
+    ],
+    "description": "A fun and healthy twist on nachos."
+  },
+  {
+    "recipe_name": "Bits n' Bites",
+    "recipe_id": 4,
+    "category": "Snack",
+    "ingredients": [
+      {
+        "ingredient_name": "Cheerios",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredient_name": "Pretzel sticks",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredient_name": "Cheese-flavored crackers",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredient_name": "Mini breadsticks",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredient_name": "Mixed nuts",
+        "quantity": "1 cup"
+      },
+      {
+        "ingredient_name": "Butter",
+        "quantity": "1/4 cup (melted)"
+      },
+      {
+        "ingredient_name": "Worcestershire sauce",
+        "quantity": "2 tablespoons"
+      },
+      {
+        "ingredient_name": "Garlic powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredient_name": "Onion powder",
+        "quantity": "1/2 teaspoon"
+      },
+      {
+        "ingredient_name": "Paprika",
+        "quantity": "1/2 teaspoon"
+      }
+    ],
+    "instructions": [
+      "Preheat oven to 250°F (120°C).",
+      "In a large bowl, combine Cheerios, pretzel sticks, cheese-flavored crackers, mini breadsticks, and mixed nuts.",
+      "In a separate small bowl, mix the melted butter, Worcestershire sauce, garlic powder, onion powder, and paprika.",
+      "Pour the butter mixture over the dry ingredients and toss to coat evenly.",
+      "Spread the mixture in a single layer on a baking sheet.",
+      "Bake for 1 hour, stirring every 15 minutes.",
+      "Allow to cool before serving or storing in an airtight container."
+    ],
+    "description": "A savory and crunchy mix of cereal, pretzels, crackers, and nuts, coated in a flavorful butter sauce and baked to perfection."
   }
 ]

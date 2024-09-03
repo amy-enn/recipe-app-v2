@@ -23,7 +23,7 @@ export default function Root() {
     <div className="bg-caramel flex flex-col items-center min-h-screen">
 
       <h1 className="text-3xl font-bold my-4">My Recipes V2</h1>
-      <a className="bg-vanilla border-4 border-peach text-black py-1 px-2 my-4 rounded hover:scale-105">
+      <a className="bg-vanilla border-4 border-peach text-black py-1 px-2 my-4 rounded hover:scale-105 cursor-pointer">
         GitHub
       </a>
 
