@@ -30,8 +30,8 @@ const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
 
     return (
         <>
-            <h3>Recipe Categories</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <h3 className="text-lg font-bold">Recipe Categories</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mx-4 mb-4">
                 {Object.keys(groupedRecipes).map((categoryIdStr) => {
                     const categoryId = parseInt(categoryIdStr, 10);
                     const category = categories.find(cat => cat.id === Number(categoryId));
@@ -41,8 +41,8 @@ const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
                             {category && (
                                 <>
                                     <h2 className="text-xl font-bold mb-2 text-center">~ {category.name} ~</h2>
-                                    <img src={category.imageUrl} alt={category.name} className="mb-4 mx-auto" />
-                                    <p className="text-center mb-4">{category.description}</p>
+                                    <img src={category.imageUrl} alt={category.name} className="mb-4 mx-auto max-w-40 rounded-full border-4 border-peach shadow-lg" />
+                                    {/* <p className="text-center mb-4">{category.description}</p> */}
                                 </>
                             )}
                             <ul>
@@ -52,7 +52,7 @@ const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
                                         onClick={() => onRecipeSelect(recipe)}
                                         className="cursor-pointer hover:underline text-center"
                                     >
-                                        {recipe.recipe_name}
+                                        ✦ {recipe.recipe_name} ✦
                                     </li>
                                 ))}
                             </ul>
