@@ -34,7 +34,8 @@
       "Let it rise again for 30 minutes.",
       "Preheat oven to 375°F (190°C) and bake for 25-30 minutes until golden brown."
     ],
-    "description": "White bread is known for its simplicity and soft, fluffy texture. It's versatile and can be used for sandwiches or toast."
+    "description": "White bread is known for its simplicity and soft, fluffy texture. It's versatile and can be used for sandwiches or toast.",
+    "imageUrl": "whitebread.png"
   },
   {
     "recipe_name": "Whole Wheat Bread",
@@ -75,7 +76,8 @@
       "Let it rise again for 30 minutes.",
       "Preheat oven to 350°F (175°C) and bake for 30-35 minutes until it sounds hollow when tapped."
     ],
-    "description": "Whole wheat bread has a nutty flavor and denser texture compared to white bread."
+    "description": "Whole wheat bread has a nutty flavor and denser texture compared to white bread.",
+    "imageUrl": "wholewheatbread.png"
   },
   {
     "recipe_name": "Soda Bread",
@@ -107,7 +109,8 @@
       "Place on the baking sheet, mark with a deep 'X' on top.",
       "Bake for 15 minutes at 425°F (220°C), then reduce to 400°F (200°C) and bake for an additional 20-30 minutes until browned."
     ],
-    "description": "Soda bread is unique for its use of baking soda and buttermilk, which create a quick, rustic, and slightly tangy bread. It doesn't require yeast or long rising times."
+    "description": "Soda bread is unique for its use of baking soda and buttermilk, which create a quick, rustic, and slightly tangy bread. It doesn't require yeast or long rising times.",
+    "imageUrl": "sodabread.png"
   },
   {
     "recipe_name": "Tomato Soup",
@@ -154,7 +157,8 @@
       "Use an immersion blender to puree the soup until smooth.",
       "Serve hot, garnished with fresh basil leaves."
     ],
-    "description": "Tomato soup is known for its comforting, tangy flavor. It's a classic favorite, often served with grilled cheese sandwiches."
+    "description": "Tomato soup is known for its comforting, tangy flavor. It's a classic favorite, often served with grilled cheese sandwiches.",
+    "imageUrl": "tomatosoup.png"
   },
   {
     "recipe_name": "Chicken Noodle Soup",
@@ -206,7 +210,8 @@
       "Season with salt and pepper.",
       "Serve hot, garnished with fresh parsley."
     ],
-    "description": "Chicken noodle soup is a comforting and hearty soup with tender chicken, vegetables, and noodles. It's often enjoyed when feeling under the weather."
+    "description": "Chicken noodle soup is a comforting and hearty soup with tender chicken, vegetables, and noodles. It's often enjoyed when feeling under the weather.",
+    "imageUrl": "chickennoodlesoup.png"
   },
   {
     "recipe_name": "Potato Leek Soup",
@@ -247,7 +252,8 @@
       "Stir in heavy cream if desired for added richness.",
       "Serve hot."
     ],
-    "description": "Potato leek soup is known for its silky texture and delicate flavor. It's a creamy, comforting soup perfect for cooler days."
+    "description": "Potato leek soup is known for its silky texture and delicate flavor. It's a creamy, comforting soup perfect for cooler days.",
+    "imageUrl": "potatoleeksoup.png"
   },
   {
     "recipe_id": 7,
@@ -301,7 +307,8 @@
       "Bake for 10-12 minutes until the edges are lightly golden.",
       "Cool on wire racks. Enjoy!"
     ],
-    "description": "Chocolate chip cookies are classic and beloved for their combination of chewy and crispy textures and the delightful taste of chocolate."
+    "description": "Chocolate chip cookies are classic and beloved for their combination of chewy and crispy textures and the delightful taste of chocolate.",
+    "imageUrl": "chocolatechipcookies.png"
   },
   {
     "recipe_id": 8,
@@ -346,7 +353,8 @@
       "Bake for 10-12 minutes until the cookies start to brown.",
       "Cool on wire racks. Enjoy!"
     ],
-    "description": "Peanut butter cookies are known for their rich peanut butter flavor and crumbly, melt-in-your-mouth texture."
+    "description": "Peanut butter cookies are known for their rich peanut butter flavor and crumbly, melt-in-your-mouth texture.",
+    "imageUrl": "peanutbuttercookies.png"
   },
   {
     "recipe_id": 9,
@@ -404,7 +412,8 @@
       "Bake for 10-12 minutes until the edges are lightly golden.",
       "Cool on wire racks. Enjoy!"
     ],
-    "description": "Oatmeal raisin cookies are loved for their hearty, chewy texture and the sweetness of the raisins combined with the warmth of cinnamon."
+    "description": "Oatmeal raisin cookies are loved for their hearty, chewy texture and the sweetness of the raisins combined with the warmth of cinnamon.",
+    "imageUrl": "oatmealraisincookies.png"
   },
   {
     "recipe_id": 10,
@@ -449,7 +458,8 @@
       "Cook until bubbles form on the surface, then flip and cook until golden brown.",
       "Serve hot with your favorite toppings."
     ],
-    "description": "Pancakes are a classic breakfast choice, known for their fluffy texture and versatility in toppings like syrup, fruits, or chocolate chips."
+    "description": "Pancakes are a classic breakfast choice, known for their fluffy texture and versatility in toppings like syrup, fruits, or chocolate chips.",
+    "imageUrl": "pancakes.png"
   },
   {
     "recipe_id": 11,
@@ -499,7 +509,8 @@
       "Bake for 20-25 minutes until a toothpick comes out clean.",
       "Cool in the muffin tin for a few minutes before transferring to a wire rack."
     ],
-    "description": "Blueberry muffins are a delightful breakfast treat with bursts of sweet blueberries in every bite."
+    "description": "Blueberry muffins are a delightful breakfast treat with bursts of sweet blueberries in every bite.",
+    "imageUrl": "blueberrymuffins.png"
   },
   {
     "recipe_id": 12,
@@ -554,7 +565,8 @@
       "Bake for 20-25 minutes until a toothpick comes out clean.",
       "Cool in the muffin tin for a few minutes before transferring to a wire rack."
     ],
-    "description": "Banana nut muffins are a delightful breakfast treat with the natural sweetness of bananas and the crunch of chopped nuts."
+    "description": "Banana nut muffins are a delightful breakfast treat with the natural sweetness of bananas and the crunch of chopped nuts.",
+    "imageUrl": "banananutmuffins.png"
   },
   {
     "recipe_name": "Pound Cake",
@@ -598,7 +610,8 @@
       "Pour batter into the prepared pan.",
       "Bake for 60 to 70 minutes in the preheated oven, until a toothpick inserted into the center of the cake comes out clean."
     ],
-    "description": "A traditional pound cake recipe, known for its rich, buttery flavor and dense texture. Perfect as a base for various toppings and fruit accompaniments."
+    "description": "A traditional pound cake recipe, known for its rich, buttery flavor and dense texture. Perfect as a base for various toppings and fruit accompaniments.",
+    "imageUrl": "poundcake.png"
   },
   {
     "recipe_name": "Vanilla Cake",
@@ -646,7 +659,8 @@
       "Pour batter into the prepared pans.",
       "Bake for 30 to 35 minutes, or until a toothpick inserted into the center of the cake comes out clean."
     ],
-    "description": "A basic white cake with a tender crumb and rich vanilla flavor. Ideal for birthdays and celebrations, ready to be decorated with your favorite frosting and toppings."
+    "description": "A basic white cake with a tender crumb and rich vanilla flavor. Ideal for birthdays and celebrations, ready to be decorated with your favorite frosting and toppings.",
+    "imageUrl": "vanillacake.png"
   },
   {
     "recipe_name": "Chocolate Cake",
@@ -705,7 +719,8 @@
       "Pour batter into the prepared pans.",
       "Bake for 30 to 35 minutes, or until a toothpick inserted into the center comes out clean."
     ],
-    "description": "A classic chocolate cake that's moist, rich, and decadent. Perfect for any occasion and pairs wonderfully with a variety of frostings and fillings."
+    "description": "A classic chocolate cake that's moist, rich, and decadent. Perfect for any occasion and pairs wonderfully with a variety of frostings and fillings.",
+    "imageUrl": "chocolatecake.png"
   },
   {
     "recipe_name": "Carrot Cake",
@@ -752,7 +767,8 @@
       "Pour into prepared pan.",
       "Bake for 45 to 50 minutes, or until a toothpick inserted into the cake comes out clean."
     ],
-    "description": "A moist and flavorful carrot cake, packed with grated carrots and optional nuts. A delightful treat that can be enjoyed plain or dressed up with cream cheese frosting."
+    "description": "A moist and flavorful carrot cake, packed with grated carrots and optional nuts. A delightful treat that can be enjoyed plain or dressed up with cream cheese frosting.",
+    "imageUrl": "carrotcake.png"
   },
   {
     "recipe_name": "Split Pea Soup",
@@ -812,7 +828,8 @@
       "Remove the bay leaf. Optionally, blend part of the soup for a creamier texture.",
       "Adjust seasoning to taste and serve hot."
     ],
-    "description": "A hearty and comforting split-pea soup, perfect for cold days. This classic soup can be enjoyed as a vegetarian dish or with the addition of ham for extra flavor."
+    "description": "A hearty and comforting split-pea soup, perfect for cold days. This classic soup can be enjoyed as a vegetarian dish or with the addition of ham for extra flavor.",
+    "imageUrl": "splitpeasoup.png"
   },
   {
     "recipe_name": "Chili",
@@ -875,7 +892,8 @@
       "Bring to a boil, then reduce heat to low, cover, and simmer for at least 30 minutes, stirring occasionally.",
       "Taste and adjust seasonings as needed. Serve hot, optionally topped with cheese, sour cream, or chopped green onions."
     ],
-    "description": "A classic and hearty chili recipe, perfect for a comforting meal. This basic chili is flavorful and easy to make, with room for personal customization and additional toppings."
+    "description": "A classic and hearty chili recipe, perfect for a comforting meal. This basic chili is flavorful and easy to make, with room for personal customization and additional toppings.",
+    "imageUrl": "chili.png"
   },
   {
     "recipe_name": "Homemade Applesauce",
@@ -910,7 +928,8 @@
       "Mash the apples with a potato masher or blend in a blender for a smoother texture.",
       "Let the applesauce cool, then refrigerate. Serve chilled or at room temperature."
     ],
-    "description": "A simple and delicious homemade applesauce recipe, perfect for a healthy and comforting breakfast. The natural sweetness of the apples is enhanced with a hint of cinnamon and lemon."
+    "description": "A simple and delicious homemade applesauce recipe, perfect for a healthy and comforting breakfast. The natural sweetness of the apples is enhanced with a hint of cinnamon and lemon.",
+    "imageUrl": "homemadeapplesauce.png"
   },
   {
     "recipe_name": "Gingerbread Cookies",
@@ -971,7 +990,8 @@
       "Place cookies on a baking sheet lined with parchment paper and bake for 8-10 minutes or until the edges are just beginning to brown.",
       "Allow to cool on the baking sheet for a few minutes before transferring to a wire rack to cool completely. Decorate as desired."
     ],
-    "description": "Classic gingerbread cookies with a perfect balance of spices and a wonderfully soft and chewy texture. Ideal for decorating and enjoying during the holiday season or any time of year."
+    "description": "Classic gingerbread cookies with a perfect balance of spices and a wonderfully soft and chewy texture. Ideal for decorating and enjoying during the holiday season or any time of year.",
+    "imageUrl": "gingerbreadcookies.png"
   },
   {
     "recipe_name": "Challah",
@@ -1021,7 +1041,8 @@
       "Preheat oven to 375°F (190°C). Brush the loaf with the beaten egg yolk.",
       "Bake for 25-30 minutes, or until the challah is golden brown and sounds hollow when tapped on the bottom. Let cool on a wire rack."
     ],
-    "description": "Challah is a beautifully braided bread, soft and slightly sweet, making it a delightful addition to any meal. Its texture and flavor make it a favorite for both special occasions and everyday enjoyment."
+    "description": "Challah is a beautifully braided bread, soft and slightly sweet, making it a delightful addition to any meal. Its texture and flavor make it a favorite for both special occasions and everyday enjoyment.",
+    "imageUrl": "challah.png"
   },
   {
     "recipe_name": "Soft Pretzels",
@@ -1066,7 +1087,8 @@
       "Boil each pretzel for 30 seconds, then place on a baking sheet. Sprinkle with coarse salt.",
       "Bake for 12-14 minutes, or until golden brown. Cool on a wire rack."
     ],
-    "description": "Homemade soft pretzels with a chewy texture and the classic pretzel flavor. Perfect for snacking, they can be enjoyed plain or with your favorite dips."
+    "description": "Homemade soft pretzels with a chewy texture and the classic pretzel flavor. Perfect for snacking, they can be enjoyed plain or with your favorite dips.",
+    "imageUrl": "softpretzels.png"
   },
   {
     "recipe_name": "Pizza Dough",
@@ -1107,7 +1129,8 @@
       "Preheat your oven to 450°F (230°C).",
       "Roll out dough on a floured surface, add your favorite toppings, and bake for 10-15 minutes, or until crust is golden and cheese is bubbly."
     ],
-    "description": "A basic pizza dough recipe that's easy to make and perfect for creating delicious homemade pizzas. The dough is versatile, allowing for a variety of toppings to suit your taste."
+    "description": "A basic pizza dough recipe that's easy to make and perfect for creating delicious homemade pizzas. The dough is versatile, allowing for a variety of toppings to suit your taste.",
+    "imageUrl": "pizzadough.png"
   },
   {
     "recipe_name": "Brown Bread",
@@ -1160,7 +1183,8 @@
       "Bake for 50 to 60 minutes, or until a toothpick inserted into the center comes out clean.",
       "Cool in the pan for 10 minutes, then remove to a wire rack to cool completely."
     ],
-    "description": "A traditional brown bread recipe, featuring the rich flavors of whole wheat, molasses, and buttermilk. It's a wholesome, slightly sweet loaf that's perfect for toasting and serving with butter or jam."
+    "description": "A traditional brown bread recipe, featuring the rich flavors of whole wheat, molasses, and buttermilk. It's a wholesome, slightly sweet loaf that's perfect for toasting and serving with butter or jam.",
+    "imageUrl": "brownbread.png"
   },
   {
     "recipe_name": "Tropical Delight Trail Mix",
@@ -1201,7 +1225,8 @@
       "Toss until everything is evenly distributed.",
       "Store in an airtight container."
     ],
-    "description": "A tropical mix with dried fruits and nuts that brings a taste of the tropics wherever you go."
+    "description": "A tropical mix with dried fruits and nuts that brings a taste of the tropics wherever you go.",
+    "imageUrl": "tropicaldelighttrailmix.png"
   },
   {
     "recipe_name": "Spicy Nutty Mix",
@@ -1248,7 +1273,8 @@
       "Add the pretzel sticks and mix again.",
       "Store in an airtight container."
     ],
-    "description": "A spicy and crunchy trail mix with a kick, perfect for those who love a little heat in their snacks."
+    "description": "A spicy and crunchy trail mix with a kick, perfect for those who love a little heat in their snacks.",
+    "imageUrl": "spicynuttymix.png"
   },
   {
     "recipe_name": "Apple Nachos",
@@ -1277,7 +1303,8 @@
       "Drizzle with peanut butter.",
       "Sprinkle with chopped nuts and dark chocolate chips."
     ],
-    "description": "A fun and healthy twist on nachos."
+    "description": "A fun and healthy twist on nachos.",
+    "imageUrl": "applenachos.png"
   },
   {
     "recipe_name": "Bits n' Bites",
@@ -1334,6 +1361,7 @@
       "Bake for 1 hour, stirring every 15 minutes.",
       "Allow to cool before serving or storing in an airtight container."
     ],
-    "description": "A savory and crunchy mix of cereal, pretzels, crackers, and nuts, coated in a flavorful butter sauce and baked to perfection."
+    "description": "A savory and crunchy mix of cereal, pretzels, crackers, and nuts, coated in a flavorful butter sauce and baked to perfection.",
+    "imageUrl": "bitsnbites.png"
   }
 ]

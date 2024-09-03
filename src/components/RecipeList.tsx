@@ -41,7 +41,7 @@ const RecipeList = ({ onRecipeSelect }: RecipeListProps) => {
                             {category && (
                                 <>
                                     <h2 className="text-xl font-bold mb-2 text-center">~ {category.name} ~</h2>
-                                    <img src={category.imageUrl} alt={category.name} className="mb-4 mx-auto max-w-40 rounded-full border-4 border-peach shadow-lg" />
+                                    <img src={"/categories/" + category.imageUrl} alt={category.name} className="mb-4 mx-auto max-w-40 rounded-full border-4 border-peach shadow-lg" />
                                     {/* <p className="text-center mb-4">{category.description}</p> */}
                                 </>
                             )}

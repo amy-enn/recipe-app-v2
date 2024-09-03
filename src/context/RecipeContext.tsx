@@ -16,6 +16,7 @@ export type Recipe = {
     ingredients: { ingredient_name: string; quantity: string }[];
     instructions: string[];
     description: string;
+    imageUrl: string
 }
 
 interface RecipeContextProps {
