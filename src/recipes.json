@@ -2,7 +2,7 @@
   {
     "recipe_name": "White Bread",
     "recipe_id": 1,
-    "category": "Bread",
+    "category_id": 1,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -39,7 +39,7 @@
   {
     "recipe_name": "Whole Wheat Bread",
     "recipe_id": 2,
-    "category": "Bread",
+    "category_id": 1,
     "ingredients": [
       {
         "ingredient_name": "Whole wheat flour",
@@ -80,7 +80,7 @@
   {
     "recipe_name": "Soda Bread",
     "recipe_id": 3,
-    "category": "Bread",
+    "category_id": 1,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -112,7 +112,7 @@
   {
     "recipe_name": "Tomato Soup",
     "recipe_id": 4,
-    "category": "Soup",
+    "category_id": 2,
     "ingredients": [
       {
         "ingredient_name": "Canned tomatoes",
@@ -159,7 +159,7 @@
   {
     "recipe_name": "Chicken Noodle Soup",
     "recipe_id": 5,
-    "category": "Soup",
+    "category_id": 2,
     "ingredients": [
       {
         "ingredient_name": "Boneless, skinless chicken breasts",
@@ -211,7 +211,7 @@
   {
     "recipe_name": "Potato Leek Soup",
     "recipe_id": 6,
-    "category": "Soup",
+    "category_id": 2,
     "ingredients": [
       {
         "ingredient_name": "Leeks",
@@ -252,7 +252,7 @@
   {
     "recipe_id": 7,
     "recipe_name": "Chocolate Chip Cookies",
-    "category": "Cookie",
+    "category_id": 3,
     "ingredients": [
       {
         "ingredient_name": "Unsalted butter",
@@ -306,7 +306,7 @@
   {
     "recipe_id": 8,
     "recipe_name": "Peanut Butter Cookies",
-    "category": "Cookie",
+    "category_id": 3,
     "ingredients": [
       {
         "ingredient_name": "Peanut butter",
@@ -351,7 +351,7 @@
   {
     "recipe_id": 9,
     "recipe_name": "Oatmeal Raisin Cookies",
-    "category": "Cookie",
+    "category_id": 3,
     "ingredients": [
       {
         "ingredient_name": "Unsalted butter",
@@ -409,7 +409,7 @@
   {
     "recipe_id": 10,
     "recipe_name": "Pancakes",
-    "category": "Breakfast",
+    "category_id": 4,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -454,7 +454,7 @@
   {
     "recipe_id": 11,
     "recipe_name": "Blueberry Muffins",
-    "category": "Breakfast",
+    "category_id": 4,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -504,7 +504,7 @@
   {
     "recipe_id": 12,
     "recipe_name": "Banana Nut Muffins",
-    "category": "Breakfast",
+    "category_id": 4,
     "ingredients": [
       {
         "ingredient_name": "Bananas",
@@ -559,7 +559,7 @@
   {
     "recipe_name": "Pound Cake",
     "recipe_id": 13,
-    "category": "Cake",
+    "category_id": 5,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -603,7 +603,7 @@
   {
     "recipe_name": "Vanilla Cake",
     "recipe_id": 14,
-    "category": "Cake",
+    "category_id": 5,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -651,7 +651,7 @@
   {
     "recipe_name": "Chocolate Cake",
     "recipe_id": 15,
-    "category": "Cake",
+    "category_id": 5,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -710,7 +710,7 @@
   {
     "recipe_name": "Carrot Cake",
     "recipe_id": 16,
-    "category": "Cake",
+    "category_id": 5,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -757,7 +757,7 @@
   {
     "recipe_name": "Split Pea Soup",
     "recipe_id": 17,
-    "category": "Soup",
+    "category_id": 2,
     "ingredients": [
       {
         "ingredient_name": "Dried split peas",
@@ -817,7 +817,7 @@
   {
     "recipe_name": "Chili",
     "recipe_id": 18,
-    "category": "Soup",
+    "category_id": 2,
     "ingredients": [
       {
         "ingredient_name": "Ground beef or turkey",
@@ -880,7 +880,7 @@
   {
     "recipe_name": "Homemade Applesauce",
     "recipe_id": 19,
-    "category": "Breakfast",
+    "category_id": 4,
     "ingredients": [
       {
         "ingredient_name": "Apples, peeled, cored, and chopped",
@@ -915,7 +915,7 @@
   {
     "recipe_name": "Gingerbread Cookies",
     "recipe_id": 20,
-    "category": "Cookie",
+    "category_id": 3,
     "ingredients": [
       {
         "ingredient_name": "All-purpose flour",
@@ -976,7 +976,7 @@
   {
     "recipe_name": "Challah",
     "recipe_id": 21,
-    "category": "Bread",
+    "category_id": 1,
     "ingredients": [
       {
         "ingredient_name": "Warm water",
@@ -1026,7 +1026,7 @@
   {
     "recipe_name": "Soft Pretzels",
     "recipe_id": 22,
-    "category": "Bread",
+    "category_id": 1,
     "ingredients": [
       {
         "ingredient_name": "Warm water",
@@ -1071,7 +1071,7 @@
   {
     "recipe_name": "Pizza Dough",
     "recipe_id": 23,
-    "category": "Bread",
+    "category_id": 1,
     "ingredients": [
       {
         "ingredient_name": "Warm water",
@@ -1112,7 +1112,7 @@
   {
     "recipe_name": "Brown Bread",
     "recipe_id": 24,
-    "category": "Bread",
+    "category_id": 1,
     "ingredients": [
       {
         "ingredient_name": "Whole wheat flour",
@@ -1165,7 +1165,7 @@
   {
     "recipe_name": "Tropical Delight Trail Mix",
     "recipe_id": 25,
-    "category": "Snack",
+    "category_id": 6,
     "ingredients": [
       {
         "ingredient_name": "Dried mango slices",
@@ -1206,7 +1206,7 @@
   {
     "recipe_name": "Spicy Nutty Mix",
     "recipe_id": 2,
-    "category": "Snack",
+    "category_id": 6,
     "ingredients": [
       {
         "ingredient_name": "Roasted almonds",
@@ -1253,7 +1253,7 @@
   {
     "recipe_name": "Apple Nachos",
     "recipe_id": 3,
-    "category": "Snack",
+    "category_id": 6,
     "ingredients": [
       {
         "ingredient_name": "Apple slices",
@@ -1282,7 +1282,7 @@
   {
     "recipe_name": "Bits n' Bites",
     "recipe_id": 4,
-    "category": "Snack",
+    "category_id": 6,
     "ingredients": [
       {
         "ingredient_name": "Cheerios",

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Bread",
+      "description": "A variety of bread recipes including loaves, rolls, and more.",
+      "imageUrl": "bread.png"
+    },
+    {
+      "id": 2,
+      "name": "Soup",
+      "description": "Warm and comforting soup recipes, perfect for any occasion.",
+      "imageUrl": "soup.png"
+    },
+    {
+      "id": 3,
+      "name": "Cookie",
+      "description": "Delicious cookie recipes for every sweet tooth.",
+      "imageUrl": "cookie.png"
+    },
+    {
+      "id": 4,
+      "name": "Breakfast",
+      "description": "Start your day with these hearty and healthy breakfast recipes.",
+      "imageUrl": "breakfast.png"
+    },
+    {
+      "id": 5,
+      "name": "Cake",
+      "description": "Indulge in our collection of delightful cake recipes.",
+      "imageUrl": "cake.png"
+    },
+    {
+      "id": 6,
+      "name": "Snack",
+      "description": "Tasty snacks to keep you satisfied between meals.",
+      "imageUrl": "snack.png"
+    }
+  ]
