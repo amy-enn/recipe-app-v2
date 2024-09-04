@@ -37,23 +37,29 @@ const RecipeProvider = ({ children }: { children: ReactNode }) => {
     const categories: Category[] = categoryData;
 
 
+    
+    const [bookmarks, setBookmarks] = useState<Recipe[]>(() => {
+        const storedBookmarks = localStorage.getItem('bookmarks');
+        return storedBookmarks ? JSON.parse(storedBookmarks) : [];
+    });
+
     const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
 
-    const [bookmarks, setBookmarks] = useState<Recipe[]>([]);
-
     // load bookmarks from local storage if present
-    useEffect(() => {
-        const storedBookmarks = localStorage.getItem('bookmarks');
-        if (storedBookmarks) {
-            console.log(storedBookmarks);
-            setBookmarks(JSON.parse(storedBookmarks));
-        }
-    }, []);
+    // useEffect(() => {
+    //     const storedBookmarks = localStorage.getItem('bookmarks');
+    //     if (storedBookmarks) {
+    //         console.log(storedBookmarks);
+    //         setBookmarks(JSON.parse(storedBookmarks));
+    //     }
+    // }, []);
 
     // save bookmarks to local storage
     useEffect(() => {
+        if (bookmarks.length > 0) {
         localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
         console.log(bookmarks);
+        }
     }, [bookmarks]);
 
     const selectRecipe = (recipe: Recipe) => setSelectedRecipe(recipe);
